@@ -1,0 +1,33 @@
+// made by Nitish 
+//Bsc(H) Physics
+// Roll no-19/BHP/015
+// to find the largest of three numbers
+
+
+#include <iostream>
+using namespace std;
+int main()
+{    
+    float w1, w2, w3;
+    cout<<"give the value of w1  ";
+    cin>>w1;
+    
+    cout<<"give the value of w2  ";
+    cin>>w2;
+    
+    cout<< "give the value of w3  ";
+    cin>>w3;
+    
+    if(w1 >= w2 && w1 >= w3)
+    {
+        cout << "Largest number: " << w1;
+    }
+    if(w2 >= w1 && w2 >= w3)
+    {
+        cout << "Largest number: " << w2;
+    }
+    if(w3 >= w1 && w3 >= w2) {
+        cout << "Largest number is  " << w3;
+    }
+    return 0;
+}
